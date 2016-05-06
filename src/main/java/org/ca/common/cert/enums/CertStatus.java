@@ -7,7 +7,8 @@ package org.ca.common.cert.enums;
  *         证书状态
  */
 public enum CertStatus {
-    VALID(1, "有效"), REVOKE(2, "吊销"), SUSPEND(3, "挂起");
+    ENROLL(0, "申请"), VALID(1, "有效"), REVOKE(2, "吊销"), SUSPEND(3, "挂起");
+
     private int code;
     private String msg;
 
