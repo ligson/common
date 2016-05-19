@@ -32,6 +32,7 @@ public class X500NameUtils {
                 builder.addRDN(asn1ObjectIdentifier, value);
             } catch (Exception e) {
                 e.printStackTrace();
+                return null;
             }
         }
         return builder.build();
