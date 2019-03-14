@@ -12,6 +12,7 @@ sourceCompatibility = 1.8
 
 
 repositories {
+    maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
     maven { url "http://nexus.eatuo.com:81/content/groups/public/" }
     mavenCentral()
 }
